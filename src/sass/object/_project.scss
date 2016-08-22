@@ -11,7 +11,7 @@ $secondary_green: #DEEFBC;
   border-radius: 10px;
 }
 .p-question-area + .p-question-area {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .p-question-ttl {
   color: #FFFFFF;
@@ -40,9 +40,11 @@ $secondary_green: #DEEFBC;
 .p-question-ans-list-inner {
   display: table;
   width: 100%;
+  border-collapse: collapse;
   input {
     display: table-cell;
-    vertical-align: initial;
+    vertical-align: middle;
+    margin: 0;
    }
   label {
     width: 90%;
