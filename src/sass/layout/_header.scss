@@ -1,0 +1,23 @@
+@charset "utf-8";
+.l-header {
+  max-width: 950px;
+}
+.l-header-ttl {
+  display: block;
+  margin: 0 0 5px 0;
+  color: #999999;
+  padding: 3px 0 3px 0;
+  font-size: 10px;
+  font-weight:normal;
+  height: auto;
+  line-height: 10px;
+}
+.l-header-logo {
+  max-width: 320px;
+  a {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+}

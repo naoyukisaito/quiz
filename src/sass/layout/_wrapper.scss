@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+$width: 950px;
+$primary_green: #8cc11e;
+.l-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 7px solid $primary_green;
+  border-left: 7px solid $primary_green;
+  min-height: 100px;
+}

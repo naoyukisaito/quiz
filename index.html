@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=ja>
+<head>
+	<meta charset=utf-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+	<meta name=viewport
+		  content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<meta name=description content="">
+	<meta name=keywords content="">
+	<meta name=robots content=>
+	<meta property=og:title content="">
+	<meta property=og:type content=>
+	<meta property=og:url content=>
+	<meta property=og:site_name content="">
+	<meta property=og:description content=>
+	<meta name=author content="">
+	<meta name=copyright content="">
+	<!--<link rel="shortcut icon" href=/img/favicon.ico>&lt;!&ndash;&ndash;&gt;-->
+	<link rel=stylesheet href=/test/build/css/app.min.css>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
+</head>
+<body>
+<div class="l-wrapper">
+	<header class="l-header">
+		<div class="l-header-inner">
+			<h1 class="l-header-ttl">人間ドックや各種がん検診の予約は「人間ドックのここカラダ」</h1>
+		</div>
+		<h2 class="l-header-logo">
+			<a href="https://dock.cocokarada.jp/">
+				<img src="/test/build/img/header_logo.png" alt="人間ドック・検診のここカラダ">
+			</a>
+		</h2>
+	</header>
+	<main class="l-main" id="app">
+		<div v-for="item in items" class="p-question-area">
+			<div class="p-question-header">
+				<h3 class="p-question-ttl">
+					{{ item.ttl }}
+				</h3>
+			</div>
+			<div class="p-question-body">
+				<div class="p-question-txt">
+					<p>
+						{{ item.question }}
+					</p>
+				</div>
+				<div class="p-question-ans">
+					<ul class="p-question-ans-list">
+						<li v-for="ans in item.answers">
+							<div class="p-question-ans-list-inner">
+								<input type="checkbox" id={{ans.id}}>
+								<label for={{ans.id}}>
+									{{ ans.answer }}
+								</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="p-btn-area">
+			<a href="#" class="c-btn">採点</a>
+		</div>
+	</main>
+	<footer class="l-footer">
+		<div class="l-footer-logo-area">
+			<a target="_blank" href="https://www.recruit-lifestyle.co.jp">
+				<img alt="リクルートライフスタイル" src="/test/build/img/21_footer_w_1.png">
+			</a>
+		</div>
+		<a style="color:#435B67; text-decoration:underline; font-size:10px; font-style:normal; font-family:Meiryo; font-weight:bold; display:block; clear:both;" target="_blank" href="https://www.recruit.co.jp/">リクルートグループサイトへ</a>
+	</footer>
+</div>
+<!--<script src=/js/jquery-2.2.4.min.js></script>-->
+<script src="/test/build/js/app.js"></script>
+</body>
+</html>

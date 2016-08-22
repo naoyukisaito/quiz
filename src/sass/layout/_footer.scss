@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.l-footer {
+  border-top: 1px solid #999999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.l-footer-logo-area {
+  max-width: 263px;
+  > a {
+    display: block;
+    > img {
+      width: 100%;
+    }
+  }
+}
