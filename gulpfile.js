@@ -18,7 +18,6 @@ gulp.task('sass',function(){
 		}))
 		.pipe(sourcemaps.init())
 		.pipe(sass())
-		.pipe(autoPrefixer())
 		.pipe(cssComb())
 		.pipe(rename({
 			suffix: '.min'

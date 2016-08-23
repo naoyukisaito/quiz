@@ -17,6 +17,7 @@
 	<meta name=author content="">
 	<meta name=copyright content="">
 	<!--<link rel="shortcut icon" href=/img/favicon.ico>&lt;!&ndash;&ndash;&gt;-->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 	<link rel=stylesheet href="/build/css/app.min.css">
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.7.2/vue-resource.js"></script>
@@ -37,7 +38,7 @@
 		<div v-for="item in items" class="p-question-area">
 			<div class="p-question-header">
 				<h3 class="p-question-ttl">
-					{{ item.ttl }}
+					Q.{{ $index + 1 }}
 				</h3>
 			</div>
 			<div class="p-question-body">
@@ -52,7 +53,7 @@
 							<div class="p-question-ans-list-inner">
 								<input type="checkbox" id={{ans.id}}>
 								<label for={{ans.id}}>
-									{{ ans.choices }}
+									{{ $index + 1 + "." }}{{ ans.choices }}
 								</label>
 							</div>
 						</li>

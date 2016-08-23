@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 .c-btn {
+  max-width: 350px;
   width: 50%;
   margin-left:auto;
   margin-right: auto;
@@ -10,12 +11,11 @@
   height: 50px;
   line-height: 50px;
   font-size: 20px;
-  color: #3F403D;
+  color: #3F403D !important;
   background: #fff1c8;
   background: -moz-linear-gradient(top, #FFDA77 0%, #FFAD2B 90%);
   background: -webkit-linear-gradient(top, #FFDA77 0%, #FFAD2B 90%);
   background: linear-gradient(to bottom, #FFDA77 0%, #FFAD2B 90%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFDA77', endColorstr='#FFAD2B',GradientType=0 );
   border-radius: 3px;
   border: solid 1px #F0CC96;
   box-shadow: 0 1px 2px #AAAAAA, 1px 1px 1px #FFF1C8 inset;
