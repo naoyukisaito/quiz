@@ -10,6 +10,7 @@ var app = new Vue({
 			//	console.log('ok');
 			//}
 			this.items = json;
+
 		}
 	},
 	ready: function(){
