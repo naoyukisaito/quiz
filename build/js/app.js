@@ -7,6 +7,7 @@ var app = new Vue({
 		initializeApp: function(json){
 			console.log(json);
 			this.items = json;
+			console.log(this.checked);
 		}
 	},
 	ready: function(){
