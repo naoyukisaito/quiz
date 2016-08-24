@@ -6,18 +6,13 @@ var app = new Vue({
 	methods: {
 		initializeApp: function(json){
 			console.log(json);
-			//for(var i = 0; i > json.length; i++){
-			//	console.log('ok');
-			//}
 			this.items = json;
-
 		}
 	},
 	ready: function(){
 		this.$http.get('/build/json/app.json').then((response) => {
-			console.log(response);
 			this.initializeApp(response.data);
-		}, (data) => {
+		}, (response) => {
 			console.log('false');
 		});
 	}
