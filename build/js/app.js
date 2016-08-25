@@ -1,7 +1,7 @@
 var app = new Vue({
 	el: '#app',
 	data: {
-		items: ''
+		items: '',
 	},
 	methods: {
 		initializeApp: function(json){
@@ -18,3 +18,8 @@ var app = new Vue({
 		});
 	}
 });
+
+
+
+
+
