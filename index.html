@@ -51,7 +51,7 @@
 					<ul class="p-question-ans-list">
 						<li v-for="ans in item.answers">
 							<div class="p-question-ans-list-inner">
-								<input type="checkbox" value={{$index+1}} id={{ans.id}} v-model="checked">
+								<input type="checkbox" value={{$index+1}} id={{ans.id}} v-model="checked" v-on:click="setAnswerAllay">
 								<label for={{ans.id}}>
 									{{ $index + 1 + "." }}{{ ans.choices }}
 								</label>

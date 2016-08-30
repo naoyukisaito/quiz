@@ -8,7 +8,8 @@
       { "choices": "再利用しやすい", "id":"3" },
       { "choices": "拡張しにくい", "id":"4" }
     ],
-    "correct": [1, 2, 3]
+    "correct": [1, 2, 3],
+    "myAnswer": []
   },
   {
     "ttl": "Q.2",
@@ -19,7 +20,8 @@
       { "choices": "UI", "id":"7" },
       { "choices": "見た目", "id":"8" }
     ],
-    "correct": [1, 2]
+    "correct": [1, 2],
+    "myAnswer": []
   },
   {
     "ttl": "Q.3",
@@ -30,7 +32,8 @@
       { "choices": "jsファイルを</body>直前に配置", "id":"11" },
       { "choices": "iframeを使用", "id":"12" }
     ],
-    "correct": [1, 3]
+    "correct": [1, 3],
+    "myAnswer": []
   },
   {
     "ttl": "Q.4",
@@ -41,7 +44,8 @@
       { "choices": "半角4つ分でインデント", "id":"15" },
       { "choices": "自由", "id":"16" }
     ],
-    "correct": [3]
+    "correct": [3],
+    "myAnswer": []
   },
   {
     "ttl": "Q.5",
@@ -52,7 +56,8 @@
       { "choices": "OGP設定は全て最初に記述", "id":"19" },
       { "choices": "description, keywordは指定しなくても良い", "id":"20" }
     ],
-    "correct": [2]
+    "correct": [2],
+    "myAnswer": []
   },
   {
     "ttl": "Q.6",
@@ -63,7 +68,8 @@
       { "choices": "ルート相対パス", "id":"23" },
       { "choices": "特に決まりはない", "id":"24" }
     ],
-    "correct": [3]
+    "correct": [3],
+    "myAnswer": []
   },
   {
     "ttl": "Q.7",
@@ -74,7 +80,8 @@
       { "choices": "id属性 class属性はid classの順で最後に記述する...ex: <a href= id= class= >", "id":"27" },
       { "choices": "複数のクラス名を記述する際はjs用のclassを後ろに記述する...ex: <div class='content jsc-content'>", "id":"28" }
     ],
-    "correct": [1, 3, 4]
+    "correct": [1, 3, 4],
+    "myAnswer": []
   },
   {
     "ttl": "Q.8",
@@ -85,7 +92,8 @@
       { "choices": "ショートハンドを極力使用する...ex:margin: 10px 20px 5px 5px;", "id":"31" },
       { "choices": "同じ値を統合して指定する...ex:margin: 10px 20px 20px 10px; → margin: 10px 20px;", "id":"32" }
     ],
-    "correct": [3, 4]
+    "correct": [3, 4],
+    "myAnswer": []
   },
   {
     "ttl": "Q.9",
@@ -96,7 +104,8 @@
       { "choices": "アイコンは画像で作成します", "id":"35" },
       { "choices": "!importantは極力は使用しません", "id":"36" }
     ],
-    "correct": [2, 4]
+    "correct": [2, 4],
+    "myAnswer": []
   },
   {
     "ttl": "Q.10",
@@ -107,7 +116,8 @@
       { "choices": "健保はキャメル記法...ex:.sampleCode", "id":"39" },
       { "choices": "健保はハイフン記法...ex:.sample-code", "id":"40" }
     ],
-    "correct": [2, 4]
+    "correct": [2, 4],
+    "myAnswer": []
   },
   {
     "ttl": "Q.11",
@@ -129,6 +139,7 @@
       { "choices": "小セレクタ、子孫セレクタを極力使わない...ex: .hoge .hogehoge .hogehogehoge { font-size: 12px }", "id":"47" },
       { "choices": "ブロック要素へはwidth: 100%;を必ず指定する", "id":"48" }
     ],
-    "correct": [1, 2, 3]
+    "correct": [1, 2, 3],
+    "myAnswer": []
   }
 ]
