@@ -12,7 +12,7 @@ var app = new Vue({
 		},
 		setAnswerAllay: function(){
 			console.log('ok!');
-			
+
 		}
 	},
 	ready: function(){

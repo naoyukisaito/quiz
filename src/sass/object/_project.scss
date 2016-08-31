@@ -29,18 +29,21 @@ $secondary_green: #DEEFBC;
 .p-question-body {
 	padding: 20px;
 }
-
+.p-question-txt {
+	font-weight: bold;
+}
 .p-question-ans {
 	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .p-question-ans-list {
-	margin-top: -20px;
 	> li {
-		display: inline-block;
+		//display: inline-block;
 		overflow: hidden;
-		width: 50%;
-		vertical-align: top;
+		//width: 50%;
+		//vertical-align: top;
 		margin-top: 20px;
 	}
 }
